@@ -20,6 +20,8 @@ def printer(array)
   badge = batch_badge_creator(array)
   badge.each do |i| puts i
   end
-  room = assign_rooms(speakers)
+  room = assign_rooms(array)
+  room.each do |i| puts i
+end
 end
 
